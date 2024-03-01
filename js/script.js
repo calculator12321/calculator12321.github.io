@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     znak.addEventListener('click', () => {
+        if(screan.textContent.length > 20) {
+            screan.textContent = 0;
+        }
         let result1 = [];
         let result2 = [];
         let znak = [];
@@ -48,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
         }
     })
+
 })
 
 

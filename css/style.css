@@ -62,7 +62,7 @@ button {
 @media (max-width: 500px) {
     .wrap {
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
     .screan {
         font-size: 30px;
