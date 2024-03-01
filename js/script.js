@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let result2 = [];
         let znak = [];
         let index1;
-        let arr = screan.textContent.split('');
-        arr.forEach((element, index) => {
+        screan.textContent.split('').forEach((element, index) => {
             if (!isNaN(element) && index1 > 0){
                 result2.push(element);
             }
@@ -34,8 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         result1 = +(result1.join(''));
         result2 = +(result2.join(''));
-        znak = znak.join('');
-        switch(znak) {
+        switch(znak.join('')) {
             case '+':
                 screan.textContent = result1+result2
                 break;
