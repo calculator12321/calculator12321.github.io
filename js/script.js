@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
         }
     })
-    console.dir(navigator)
 })
 
 
